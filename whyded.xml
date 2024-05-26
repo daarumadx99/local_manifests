@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!-- Remotes -->
+    <remote name="github"
+            fetch="https://github.com"
+            clone-depth="1" />
+ <!--Tree -->
+ <project path="device/xiaomi/whyred" name="TechiError/device_xiaomi_whyred" remote="github" revision="UNO" />
+
+ <!--Kernel -->
+ <project path="kernel/xiaomi/whyred" name="user-why-red/android_kernel_xiaomi_sdm660_419" remote="github" revision="android-4.19-stable" />
+ 
+ <!--Vendor -->
+ <project path="vendor/xiaomi/whyred" name="ProjectElixir-Devices/vendor_xiaomi_whyred" remote="github" revision="UNO" />
+ 
+ <!--Extras -->
+ <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" /> -->
+ 
+</manifest>
